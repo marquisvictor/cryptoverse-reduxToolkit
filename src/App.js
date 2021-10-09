@@ -20,7 +20,7 @@ const App = () => {
             </div>
             <div className='main'>
                 <Layout>
-                    <div className='route'>
+                    <div className='routes'>
                         <Switch>
                             <Route exact path='/'>
                                 <HomePage />
@@ -50,7 +50,7 @@ const App = () => {
                     </Typography.Title>
                     <Space>
                         <Link to='/'>Home</Link>
-                        <Link to='/exhanges'>Exchanges</Link>
+                        <Link to='/exchanges'>Exchanges</Link>
                         <Link to='/news'>News</Link>
                     </Space>
                 </div>
